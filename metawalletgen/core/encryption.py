@@ -8,6 +8,7 @@ for storing sensitive wallet data using AES-256 encryption.
 import os
 import base64
 import hashlib
+import datetime
 from typing import Optional, Union
 from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes

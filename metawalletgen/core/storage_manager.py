@@ -52,6 +52,10 @@ class StorageManager:
         Returns:
             Path to saved file
         """
+        # Ensure filename has .json extension
+        if not filename.endswith('.json'):
+            filename += '.json'
+        
         filepath = self.output_dir / filename
         
         # Convert wallets to dictionaries
@@ -92,6 +96,10 @@ class StorageManager:
         Returns:
             Path to saved file
         """
+        # Ensure filename has .csv extension
+        if not filename.endswith('.csv'):
+            filename += '.csv'
+        
         filepath = self.output_dir / filename
         
         # Convert wallets to list of dictionaries
@@ -138,6 +146,10 @@ class StorageManager:
         Returns:
             Path to saved file
         """
+        # Ensure filename has .yaml extension
+        if not filename.endswith('.yaml') and not filename.endswith('.yml'):
+            filename += '.yaml'
+        
         filepath = self.output_dir / filename
         
         # Convert wallets to dictionaries
