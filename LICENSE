@@ -2,7 +2,7 @@ MIT License
 
 Copyright (c) 2025 JustineDevs
 
-MetaWalletGen CLI - A secure command-line tool for generating Ethereum-compatible wallets
+MetaWalletGen CLI - A secure, professional command-line tool for generating Ethereum-compatible wallets
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,3 +26,17 @@ For more information about this project, visit:
 https://github.com/justinedevs/metawalletgen-cli
 
 Contact: https://linktree.com/traderg
+
+---
+
+**Enhanced MetaWalletGen CLI** - Version 2.0 with comprehensive security features, enhanced user experience, and production-ready functionality.
+
+This enhanced version includes:
+- Advanced encryption and security features
+- Comprehensive input validation
+- Progress tracking and enhanced user feedback
+- Configuration management and environment variable support
+- Enhanced logging and error handling
+- Memory protection and secure data handling
+
+All enhancements maintain the same MIT license while significantly improving security, usability, and functionality.
