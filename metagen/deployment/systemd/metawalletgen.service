@@ -1,0 +1,55 @@
+[Unit]
+Description=MetaWalletGen CLI Production Service
+Documentation=https://github.com/your-org/metawalletgen-cli
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=metawalletgen
+Group=metawalletgen
+WorkingDirectory=/opt/metawalletgen
+Environment=PATH=/opt/metawalletgen/venv/bin
+Environment=PYTHONPATH=/opt/metawalletgen
+Environment=METAWALLETGEN_ENV=production
+Environment=METAWALLETGEN_CONFIG=/etc/metawalletgen/production.yaml
+
+# Main service
+ExecStart=/opt/metawalletgen/venv/bin/python -m metagen.api.rest_api --production
+ExecReload=/bin/kill -HUP $MAINPID
+
+# Restart policy
+Restart=always
+RestartSec=10
+StartLimitInterval=60
+StartLimitBurst=3
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/metawalletgen /var/log/metawalletgen /tmp/metawalletgen
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=4096
+MemoryMax=2G
+CPUQuota=200%
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=metawalletgen
+
+[Install]
+WantedBy=multi-user.target
+
+# Additional dependencies (optional)
+# Requires=docker.service
+# After=docker.service

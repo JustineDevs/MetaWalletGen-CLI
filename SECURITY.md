@@ -208,8 +208,8 @@ We acknowledge and thank security researchers and community members who help imp
 
 ---
 
-**Last Updated**: January 21, 2025  
+**Last Updated**: August 26, 2025  
 **Version**: 2.0  
-**Contact**: security@metawalletgen-cli.com
+**Contact**: TraderGOfficial@gmail.com
 
 For more information about security features and best practices, please refer to the main documentation and security guide.

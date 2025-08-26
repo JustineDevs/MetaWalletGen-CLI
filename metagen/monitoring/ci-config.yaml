@@ -1,0 +1,132 @@
+# MetaWalletGen CLI - CI/CD Configuration
+# Defines test categories, thresholds, and quality gates
+
+# Test Configuration
+tests:
+  unit:
+    enabled: true
+    timeout: 300  # 5 minutes
+    coverage_threshold: 30  # Minimum coverage percentage
+    parallel: true
+    python_versions: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+  
+  integration:
+    enabled: true
+    timeout: 600  # 10 minutes
+    coverage_threshold: 25
+    parallel: false
+    python_versions: ["3.11"]
+  
+  security:
+    enabled: true
+    timeout: 300
+    tools:
+      - bandit
+      - safety
+      - pip-audit
+    severity_threshold: "medium"  # Only fail on high/critical
+  
+  performance:
+    enabled: true
+    timeout: 600
+    benchmark_rounds: 10
+    performance_threshold: 1.5  # 50% slower than baseline
+  
+  code_quality:
+    enabled: true
+    timeout: 300
+    tools:
+      - flake8
+      - black
+      - isort
+      - mypy
+    max_complexity: 10
+    max_line_length: 88
+
+# Quality Gates
+quality_gates:
+  test_coverage:
+    minimum: 30
+    target: 50
+    critical: 20
+  
+  security_issues:
+    max_high: 0
+    max_medium: 5
+    max_low: 10
+  
+  code_quality:
+    max_errors: 0
+    max_warnings: 10
+    max_complexity: 10
+  
+  performance:
+    max_regression: 20  # 20% slower than baseline
+    max_memory_usage: 512  # MB
+
+# Platforms
+platforms:
+  - ubuntu-latest
+  - windows-latest
+  - macos-latest
+
+# Dependencies
+dependencies:
+  core:
+    - pytest>=7.0.0
+    - pytest-cov>=4.0.0
+    - pytest-xdist>=3.0.0
+  
+  security:
+    - bandit>=1.7.0
+    - safety>=3.0.0
+    - pip-audit>=1.0.0
+  
+  quality:
+    - flake8>=6.0.0
+    - black>=23.0.0
+    - isort>=5.13.0
+    - mypy>=1.0.0
+  
+  performance:
+    - pytest-benchmark>=4.0.0
+
+# Notifications
+notifications:
+  slack:
+    enabled: false
+    webhook_url: ""
+    channel: "#ci-cd"
+  
+  email:
+    enabled: false
+    recipients: []
+  
+  github:
+    enabled: true
+    comment_on_pr: true
+    status_check: true
+
+# Artifacts
+artifacts:
+  retention_days: 30
+  include:
+    - coverage-reports/
+    - test-results/
+    - security-reports/
+    - performance-reports/
+    - quality-reports/
+  
+  exclude:
+    - node_modules/
+    - .git/
+    - __pycache__/
+    - *.pyc
+
+# Environment Variables
+environment:
+  PYTHON_VERSION: "3.11"
+  PACKAGE_NAME: "metawalletgen-cli"
+  TEST_TIMEOUT: "600"
+  COVERAGE_THRESHOLD: "30"
+  SECURITY_SEVERITY: "medium"

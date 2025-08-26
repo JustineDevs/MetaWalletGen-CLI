@@ -1,0 +1,36 @@
+# Core wallet generation dependencies
+hdwallet>=3.6.1
+web3>=6.0.0
+eth-account>=0.9.0
+mnemonic>=0.20
+
+# CLI and argument parsing
+click>=8.1.0
+argparse>=1.4.0
+
+# Data handling and serialization
+pyyaml>=6.0
+pandas>=2.0.0
+
+# Encryption and security
+cryptography>=41.0.0
+bcrypt>=4.0.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Optional: Browser automation (for MetaMask integration)
+selenium>=4.0.0
+webdriver-manager>=4.0.0
+
+# Utilities
+colorama>=0.4.6
+tqdm>=4.65.0
+rich>=13.0.0
+
+# Advanced features
+psutil>=5.9.0 
