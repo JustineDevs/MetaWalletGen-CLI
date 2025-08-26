@@ -27,10 +27,6 @@
 
 If you find this project helpful, please consider supporting its development:
 
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Support%20Us-red?style=for-the-badge&logo=github)](https://github.com/sponsors/JustineDevs)
-[![Patreon](https://img.shields.io/badge/Patreon-Support%20Us-orange?style=for-the-badge&logo=patreon)](https://patreon.com/JustineDevs)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Us-yellow?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/JustineDevs)
-[![Liberapay](https://img.shields.io/badge/Liberapay-Support%20Us-green?style=for-the-badge&logo=liberapay)](https://liberapay.com/JustineDevs)
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-JustineDevs-red?style=for-the-badge&logo=github)](https://github.com/sponsors/JustineDevs)
 [![Patreon](https://img.shields.io/badge/Patreon-JustineDevs-orange?style=for-the-badge&logo=patreon)](https://patreon.com/JustineDevs)
 [![Open Collective](https://img.shields.io/badge/Open%20Collective-MetaWalletGen-blue?style=for-the-badge&logo=opencollective)](https://opencollective.com/metawalletgen)
@@ -51,7 +47,7 @@ If you find this project helpful, please consider supporting its development:
 <div align="center">
 
 | # | Section | Description |
-|---|---------|-------------|------|
+|---|---------|-------------|
 | 1 | [🌟 Overview](#overview) | Project overview and introduction |
 | 2 | [🎯 What Makes It Special](#what-makes-it-special) | Key differentiators and benefits |
 | 3 | [🏢 Enterprise Features](#enterprise-features) | Multi-user, database, analytics, compliance |
