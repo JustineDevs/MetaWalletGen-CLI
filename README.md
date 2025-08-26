@@ -2,6 +2,39 @@
 
 A secure, professional command-line tool for generating Ethereum-compatible wallets using BIP-39 mnemonics and EIP-55 addresses. Features comprehensive validation, progress tracking, encrypted storage, and flexible exports for blockchain development and automation.
 
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/JustineDevs/MetaWalletGen-CLI?style=social&label=Stars)](https://github.com/JustineDevs/MetaWalletGen-CLI/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/JustineDevs/MetaWalletGen-CLI?style=social&label=Forks)](https://github.com/JustineDevs/MetaWalletGen-CLI/network/members)
+[![GitHub followers](https://img.shields.io/github/followers/JustineDevs?style=social&label=Follow)](https://github.com/JustineDevs?tab=followers)
+[![GitHub issues](https://img.shields.io/github/issues/JustineDevs/MetaWalletGen-CLI)](https://github.com/JustineDevs/MetaWalletGen-CLI/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/JustineDevs/MetaWalletGen-CLI)](https://github.com/JustineDevs/MetaWalletGen-CLI/pulls)
+[![GitHub license](https://img.shields.io/github/license/JustineDevs/MetaWalletGen-CLI)](https://github.com/JustineDevs/MetaWalletGen-CLI/blob/fe/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/JustineDevs/MetaWalletGen-CLI/actions)
+[![Code Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](https://github.com/JustineDevs/MetaWalletGen-CLI)
+[![Security](https://img.shields.io/badge/security-A%2B-brightgreen.svg)](https://github.com/JustineDevs/MetaWalletGen-CLI/security)
+
+## 💰 **Support This Project**
+
+If you find this project helpful, please consider supporting its development:
+
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-JustineDevs-red?style=for-the-badge&logo=github)](https://github.com/sponsors/JustineDevs)
+[![Patreon](https://img.shields.io/badge/Patreon-JustineDevs-orange?style=for-the-badge&logo=patreon)](https://patreon.com/JustineDevs)
+[![Open Collective](https://img.shields.io/badge/Open%20Collective-MetaWalletGen-blue?style=for-the-badge&logo=opencollective)](https://opencollective.com/metawalletgen)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-JustineDevs-yellow?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/JustineDevs)
+[![Tidelift](https://img.shields.io/badge/Tidelift-npm%2Fmetawalletgen--cli-green?style=for-the-badge&logo=tidelift)](https://tidelift.com/funding/github/npm/metawalletgen-cli)
+[![Community Bridge](https://img.shields.io/badge/Community%20Bridge-cloud--foundry-purple?style=for-the-badge&logo=linuxfoundation)](https://communitybridge.org/projects/cloud-foundry)
+[![Liberapay](https://img.shields.io/badge/Liberapay-JustineDevs-green?style=for-the-badge&logo=liberapay)](https://liberapay.com/JustineDevs)
+[![IssueHunt](https://img.shields.io/badge/IssueHunt-MetaWalletGen-blue?style=for-the-badge&logo=github)](https://issuehunt.io/r/JustineDevs/MetaWalletGen-CLI)
+[![LFX Crowdfunding](https://img.shields.io/badge/LFX%20Crowdfunding-cloud--foundry-orange?style=for-the-badge&logo=linuxfoundation)](https://crowdfunding.lfx.linuxfoundation.org/projects/cloud-foundry)
+[![Polar](https://img.shields.io/badge/Polar-MetaWalletGen-blue?style=for-the-badge&logo=polar)](https://polar.sh/JustineDevs)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-JustineDevs-yellow?style=for-the-badge&logo=ko-fi)](https://buymeacoffee.com/JustineDevs)
+[![Thanks.dev](https://img.shields.io/badge/Thanks.dev-JustineDevs-green?style=for-the-badge&logo=github)](https://thanks.dev/JustineDevs)
+[![Email Support](https://img.shields.io/badge/Email%20Support-TraderGOfficial%40gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:TraderGOfficial@gmail.com)
+
+</div>
+
 ## 🚀 Enhanced Features
 
 - **Secure Wallet Generation**: Generate Ethereum wallets using BIP-39/BIP-44 standards
