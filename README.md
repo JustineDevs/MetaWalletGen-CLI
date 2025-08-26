@@ -60,63 +60,134 @@ pip install -e .
 
 ## 🎯 Usage
 
-### Basic Wallet Generation
+### 🚀 Quick Start (From Scratch)
 
-Generate a single wallet:
+#### Step 1: Install the Tool
+```bash
+# Clone or download the project
+git clone https://github.com/JustineDevs/MetaWalletGen-CLI
+cd MetaWalletGen-CLI
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install the package in development mode
+pip install -e .
+```
+
+#### Step 2: Verify Installation
+```bash
+# Check if the tool is working
+python -m metawalletgen.cli.main info
+
+# View available commands
+python -m metawalletgen.cli.main --help
+```
+
+#### Step 3: Generate Your First Wallet
+```bash
+# Generate a single wallet (interactive mode)
+python -m metawalletgen.cli.main generate
+
+# The tool will prompt you for:
+# - Network (mainnet, testnet, sepolia)
+# - Encryption (yes/no)
+# - Password (if encryption is enabled)
+# - Output format (json, csv, yaml)
+```
+
+#### Step 4: View Your Generated Wallet
+```bash
+# List generated wallet files
+python -m metawalletgen.cli.main list
+
+# View wallet contents (if not encrypted)
+python -m metawalletgen.cli.main list --show-contents
+```
+
+### 📚 Basic Usage Examples
+
+#### Generate a Single Wallet
 ```bash
 python -m metawalletgen.cli.main generate
 ```
 
-Generate multiple wallets with progress tracking:
+#### Generate Multiple Wallets
 ```bash
-python -m metawalletgen.cli.main generate --count 10 --verbose
+# Generate 5 wallets with progress tracking
+python -m metawalletgen.cli.main generate --count 5 --verbose
+
+# Generate 10 wallets in CSV format
+python -m metawalletgen.cli.main generate --count 10 --format csv
+```
+- "csv or json"
+
+#### Generate Encrypted Wallets
+```bash
+# Generate encrypted wallet (will prompt for password)
+python -m metawalletgen.cli.main generate --encrypt
+
+# Generate encrypted wallet with password from environment
+export WALLET_PASSWORD="your_secure_password"
+python -m metawalletgen.cli.main generate --encrypt --password $WALLET_PASSWORD
 ```
 
-Generate encrypted wallets:
+### 🔄 Import Existing Wallets
+
+#### Import from Different Formats
 ```bash
-python -m metawalletgen.cli.main generate --count 5 --encrypt
+# Import from JSON file
+python -m metawalletgen.cli.main import existing_wallets.json
+
+# Import and convert to CSV format
+python -m metawalletgen.cli.main import wallets.json --format csv
+
+# Import with encryption
+python -m metawalletgen.cli.main import wallets.json --encrypt
 ```
 
-### Import Existing Wallets
+### 📁 File Management
 
-Import from wallet file:
+#### List and Manage Wallet Files
 ```bash
-python -m metawalletgen.cli.main import existing_wallets.json --format csv
-```
+# List all wallet files in current directory
+python -m metawalletgen.cli.main list
 
-Import with encryption:
-```bash
-python -m metawalletgen.cli.main import wallets.json --encrypt --password $ENV_PASSWORD
-```
-
-### File Management
-
-List wallet files with details:
-```bash
+# List files in specific directory
 python -m metawalletgen.cli.main list --directory wallets/
+
+# Show detailed information including file sizes
+python -m metawalletgen.cli.main list --verbose
 ```
 
-Validate wallet data:
+#### Validate Wallet Data
 ```bash
+# Validate wallet file integrity
+python -m metawalletgen.cli.main validate wallets.json
+
+# Detailed validation with verbose output
 python -m metawalletgen.cli.main validate wallets.json --verbose
 ```
 
-### System Information
+### 🛠️ System Information and Help
 
-Show system info:
+#### Get System Information
 ```bash
+# Show system info and dependency status
 python -m metawalletgen.cli.main info
-```
 
-Show usage examples:
-```bash
+# Display usage examples
 python -m metawalletgen.cli.main examples
+
+# Get help for specific command
+python -m metawalletgen.cli.main generate --help
 ```
 
-### Advanced Options
+### 🎯 Advanced Usage
 
-Generate wallets with custom parameters:
+#### Custom Wallet Generation
 ```bash
+# Generate wallets with custom parameters
 python -m metawalletgen.cli.main generate \
   --count 100 \
   --network testnet \
@@ -126,6 +197,91 @@ python -m metawalletgen.cli.main generate \
   --password $WALLET_PASSWORD \
   --summary \
   --verbose
+```
+
+#### Batch Processing with Progress
+```bash
+# Generate 1000 wallets with progress tracking
+python -m metawalletgen.cli.main generate \
+  --count 1000 \
+  --format csv \
+  --encrypt \
+  --verbose \
+  --summary
+```
+
+### 🔐 Security Best Practices
+
+#### Password Management
+```bash
+# Use environment variables for passwords (recommended)
+export WALLET_PASSWORD="your_very_secure_password_here"
+python -m metawalletgen.cli.main generate --encrypt --password $WALLET_PASSWORD
+
+# Clear password from environment after use
+unset WALLET_PASSWORD
+```
+
+#### Network Selection
+```bash
+# Use testnet for development
+python -m metawalletgen.cli.main generate --network testnet
+
+# Use mainnet for production (be extra careful!)
+python -m metawalletgen.cli.main generate --network mainnet
+```
+
+### 📋 Common Workflows
+
+#### Development Workflow
+```bash
+# 1. Generate test wallets
+python -m metawalletgen.cli.main generate --count 5 --network testnet --format json
+
+# 2. Validate generated wallets
+python -m metawalletgen.cli.main validate wallets.json --verbose
+
+# 3. List and review
+python -m metawalletgen.cli.main list --verbose
+```
+
+#### Production Workflow
+```bash
+# 1. Set secure password
+export PROD_PASSWORD="very_long_random_password_here"
+
+# 2. Generate encrypted wallets
+python -m metawalletgen.cli.main generate \
+  --count 10 \
+  --network mainnet \
+  --encrypt \
+  --password $PROD_PASSWORD \
+  --format json \
+  --summary
+
+# 3. Clear password
+unset PROD_PASSWORD
+
+# 4. Verify encryption
+python -m metawalletgen.cli.main list --verbose
+```
+
+### ❓ Troubleshooting
+
+#### Common Issues and Solutions
+```bash
+# If you get "command not found"
+pip install -e .
+
+# If you get import errors
+pip install -r requirements.txt
+
+# If you forget your password
+# Unfortunately, encrypted wallets cannot be recovered without the password
+# Always keep your passwords safe and backed up!
+
+# If you want to test without encryption first
+python -m metawalletgen.cli.main generate --count 1 --format json
 ```
 
 ## ⚙️ Configuration
