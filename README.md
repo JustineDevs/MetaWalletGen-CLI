@@ -6,18 +6,18 @@
 **MetaWalletGen CLI** is a **production-ready, enterprise-grade platform** for generating and managing Ethereum-compatible wallets. What started as a simple CLI tool has been transformed into a comprehensive solution that can handle enterprise-scale operations with advanced security, monitoring, and scalability features.
 
 ### **🎯 What Makes It Special**
-- **🔒 Enterprise Security**: Multi-user authentication, role-based access control, audit logging
-- **📊 Performance Monitoring**: Real-time metrics, automated optimization, load balancing
-- **🌐 API-First Design**: RESTful API with web dashboard and programmatic access
-- **🚀 Production Ready**: Comprehensive deployment automation and operational procedures
-- **📈 Scalable Architecture**: Designed for high-volume operations and enterprise integration
+ **🔒 Enterprise Security**: Multi-user authentication, role-based access control, audit logging
+ **📊 Performance Monitoring**: Real-time metrics, automated optimization, load balancing
+ **🌐 API-First Design**: RESTful API with web dashboard and programmatic access
+ **🚀 Production Ready**: Comprehensive deployment automation and operational procedures
+ **📈 Scalable Architecture**: Designed for high-volume operations and enterprise integration
 
 [![GitHub stars](https://img.shields.io/github/stars/JustineDevs/MetaWalletGen-CLI?style=social&label=Stars)](https://github.com/JustineDevs/MetaWalletGen-CLI/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/JustineDevs/MetaWalletGen-CLI?style=social&label=Forks)](https://github.com/JustineDevs/MetaWalletGen-CLI/network/members)
 [![GitHub followers](https://img.shields.io/github/followers/JustineDevs?style=social&label=Follow)](https://github.com/JustineDevs?tab=followers)
 [![GitHub issues](https://img.shields.io/github/issues/JustineDevs/MetaWalletGen-CLI)](https://github.com/JustineDevs/MetaWalletGen-CLI/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/JustineDevs/MetaWalletGen-CLI)](https://github.com/JustineDevs/MetaWalletGen-CLI/pulls)
-[![GitHub license](https://img.shields.io/github/license/JustineDevs/MetaWalletGen-CLI)](https://github.com/JustineDevs/MetaWalletGen-CLI/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/JustineDevs/MetaWalletGen-CLI)](https://github.com/JustineDevs/MetaWalletGen-CLI/blob/fe/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/JustineDevs/MetaWalletGen-CLI/actions)
 [![Code Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](https://github.com/JustineDevs/MetaWalletGen-CLI)
@@ -35,19 +35,19 @@ If you find this project helpful, please consider supporting its development:
 
 
 **Supported Funding Platforms:**
-- **GitHub Sponsors**: [JustineDevs](https://github.com/sponsors/JustineDevs)
-- **Patreon**: [JustineDevs](https://patreon.com/JustineDevs)
-- **Open Collective**: [MetaWalletGen](https://opencollective.com/metawalletgen)
-- **Ko-fi**: [JustineDevs](https://ko-fi.com/JustineDevs)
-- **Tidelift**: [npm/metawalletgen-cli](https://tidelift.com/funding/github/npm/metawalletgen-cli)
-- **Community Bridge**: [cloud-foundry](https://communitybridge.org/projects/cloud-foundry)
-- **Liberapay**: [JustineDevs](https://liberapay.com/JustineDevs)
-- **IssueHunt**: [MetaWalletGen](https://issuehunt.io/r/JustineDevs/MetaWalletGen-CLI)
-- **LFX Crowdfunding**: [cloud-foundry](https://crowdfunding.lfx.linuxfoundation.org/projects/cloud-foundry)
-- **Polar**: [MetaWalletGen](https://polar.sh/JustineDevs)
-- **Buy Me a Coffee**: [JustineDevs](https://buymeacoffee.com/JustineDevs)
-- **Thanks.dev**: [JustineDevs](https://thanks.dev/JustineDevs)
-- **Custom**: [Direct Support](mailto:TraderGOfficial@gmail.com)
+ **GitHub Sponsors**: [JustineDevs](https://github.com/sponsors/JustineDevs)
+ **Patreon**: [JustineDevs](https://patreon.com/JustineDevs)
+ **Open Collective**: [MetaWalletGen](https://opencollective.com/metawalletgen)
+ **Ko-fi**: [JustineDevs](https://ko-fi.com/JustineDevs)
+ **Tidelift**: [npm/metawalletgen-cli](https://tidelift.com/funding/github/npm/metawalletgen-cli)
+ **Community Bridge**: [cloud-foundry](https://communitybridge.org/projects/cloud-foundry)
+ **Liberapay**: [JustineDevs](https://liberapay.com/JustineDevs)
+ **IssueHunt**: [MetaWalletGen](https://issuehunt.io/r/JustineDevs/MetaWalletGen-CLI)
+ **LFX Crowdfunding**: [cloud-foundry](https://crowdfunding.lfx.linuxfoundation.org/projects/cloud-foundry)
+ **Polar**: [MetaWalletGen](https://polar.sh/JustineDevs)
+ **Buy Me a Coffee**: [JustineDevs](https://buymeacoffee.com/JustineDevs)
+ **Thanks.dev**: [JustineDevs](https://thanks.dev/JustineDevs)
+ **Custom**: [Direct Support](mailto:TraderGOfficial@gmail.com)
 
 ## 📋 **Table of Contents**
 
