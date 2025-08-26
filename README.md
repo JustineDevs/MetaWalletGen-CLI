@@ -1,4 +1,11 @@
+
 # MetaWalletGen CLI
+
+<div align="center">
+
+[![MetaGen Wallet Banner](Banner%20V1%20METAGEN%20WALLET.png)](Banner%20V1%20METAGEN%20WALLET.png)
+
+</div>
 
 A secure, professional command-line tool for generating Ethereum-compatible wallets using BIP-39 mnemonics and EIP-55 addresses. Features comprehensive validation, progress tracking, encrypted storage, and flexible exports for blockchain development and automation.
 
