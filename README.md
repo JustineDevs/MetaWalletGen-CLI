@@ -66,6 +66,24 @@ If you find this project helpful, please consider supporting its development:
 - **File Size Reporting** and security reminders
 - **Verbose Output** for debugging and monitoring
 
+
+## 🎯 Usage
+
+### 🚀 Quick Start (From Scratch)
+
+#### Step 1: Install the Tool
+```bash
+# Clone or download the project
+git clone https://github.com/JustineDevs/MetaWalletGen-CLI
+cd MetaWalletGen-CLI
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install the package in development mode
+pip install -e .
+```
+
 ## 📦 Installation
 
 ### Prerequisites
@@ -82,23 +100,6 @@ pip install -r requirements.txt
 ### Development Installation
 
 ```bash
-pip install -e .
-```
-
-## 🎯 Usage
-
-### 🚀 Quick Start (From Scratch)
-
-#### Step 1: Install the Tool
-```bash
-# Clone or download the project
-git clone https://github.com/JustineDevs/MetaWalletGen-CLI
-cd MetaWalletGen-CLI
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Install the package in development mode
 pip install -e .
 ```
 
