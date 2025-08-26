@@ -31,45 +31,44 @@ If you find this project helpful, please consider supporting its development:
 [![Patreon](https://img.shields.io/badge/Patreon-Support%20Us-orange?style=for-the-badge&logo=patreon)](https://patreon.com/JustineDevs)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Us-yellow?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/JustineDevs)
 [![Liberapay](https://img.shields.io/badge/Liberapay-Support%20Us-green?style=for-the-badge&logo=liberapay)](https://liberapay.com/JustineDevs)
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-JustineDevs-red?style=for-the-badge&logo=github)](https://github.com/sponsors/JustineDevs)
+[![Patreon](https://img.shields.io/badge/Patreon-JustineDevs-orange?style=for-the-badge&logo=patreon)](https://patreon.com/JustineDevs)
+[![Open Collective](https://img.shields.io/badge/Open%20Collective-MetaWalletGen-blue?style=for-the-badge&logo=opencollective)](https://opencollective.com/metawalletgen)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-JustineDevs-yellow?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/JustineDevs)
+[![Tidelift](https://img.shields.io/badge/Tidelift-npm%2Fmetawalletgen--cli-green?style=for-the-badge&logo=tidelift)](https://tidelift.com/funding/github/npm/metawalletgen-cli)
+[![Community Bridge](https://img.shields.io/badge/Community%20Bridge-cloud--foundry-purple?style=for-the-badge&logo=linuxfoundation)](https://communitybridge.org/projects/cloud-foundry)
+[![Liberapay](https://img.shields.io/badge/Liberapay-JustineDevs-green?style=for-the-badge&logo=liberapay)](https://liberapay.com/JustineDevs)
+[![IssueHunt](https://img.shields.io/badge/IssueHunt-MetaWalletGen-blue?style=for-the-badge&logo=github)](https://issuehunt.io/r/JustineDevs/MetaWalletGen-CLI)
+[![LFX Crowdfunding](https://img.shields.io/badge/LFX%20Crowdfunding-cloud--foundry-orange?style=for-the-badge&logo=linuxfoundation)](https://crowdfunding.lfx.linuxfoundation.org/projects/cloud-foundry)
+[![Polar](https://img.shields.io/badge/Polar-MetaWalletGen-blue?style=for-the-badge&logo=polar)](https://polar.sh/JustineDevs)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-JustineDevs-yellow?style=for-the-badge&logo=ko-fi)](https://buymeacoffee.com/JustineDevs)
+[![Thanks.dev](https://img.shields.io/badge/Thanks.dev-JustineDevs-green?style=for-the-badge&logo=github)](https://thanks.dev/JustineDevs)
+[![Email Support](https://img.shields.io/badge/Email%20Support-TraderGOfficial%40gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:TraderGOfficial@gmail.com)
 
-
-
-**Supported Funding Platforms:**
- **GitHub Sponsors**: [JustineDevs](https://github.com/sponsors/JustineDevs)
- **Patreon**: [JustineDevs](https://patreon.com/JustineDevs)
- **Open Collective**: [MetaWalletGen](https://opencollective.com/metawalletgen)
- **Ko-fi**: [JustineDevs](https://ko-fi.com/JustineDevs)
- **Tidelift**: [npm/metawalletgen-cli](https://tidelift.com/funding/github/npm/metawalletgen-cli)
- **Community Bridge**: [cloud-foundry](https://communitybridge.org/projects/cloud-foundry)
- **Liberapay**: [JustineDevs](https://liberapay.com/JustineDevs)
- **IssueHunt**: [MetaWalletGen](https://issuehunt.io/r/JustineDevs/MetaWalletGen-CLI)
- **LFX Crowdfunding**: [cloud-foundry](https://crowdfunding.lfx.linuxfoundation.org/projects/cloud-foundry)
- **Polar**: [MetaWalletGen](https://polar.sh/JustineDevs)
- **Buy Me a Coffee**: [JustineDevs](https://buymeacoffee.com/JustineDevs)
- **Thanks.dev**: [JustineDevs](https://thanks.dev/JustineDevs)
- **Custom**: [Direct Support](mailto:TraderGOfficial@gmail.com)
+</div>
 
 ## 📋 **Table of Contents**
+<div align="center">
 
-| # | Section | Description | Page |
+| # | Section | Description |
 |---|---------|-------------|------|
-| 1 | [🌟 Overview](#overview) | Project overview and introduction | - |
-| 2 | [🎯 What Makes It Special](#what-makes-it-special) | Key differentiators and benefits | - |
-| 3 | [🏢 Enterprise Features](#enterprise-features) | Multi-user, database, analytics, compliance | - |
-| 4 | [📊 Performance & Scaling](#performance--scaling) | Monitoring, optimization, caching, load balancing | - |
-| 5 | [✨ Features](#features) | Core wallet generation and API capabilities | - |
-| 6 | [📦 Installation & Prerequisites](#installation) | Setup requirements and installation steps | - |
-| 7 | [⚙️ Configuration](#configuration) | Environment variables and config files | - |
-| 8 | [🚀 Deployment](#deployment) | Production, Docker, and systemd deployment | - |
-| 9 | [📖 Usage](#usage) | CLI commands and API examples | - |
-| 10 | [🏗️ Project Structure](#project-structure) | Directory organization and architecture | - |
-| 11 | [🔧 Development](#development) | Development setup and testing | - |
-| 12 | [🔒 Security Considerations](#security) | Security features and best practices | - |
-| 13 | [🆘 Support](#support) | Getting help and troubleshooting | - |
-| 14 | [🤝 Contributing](#contributing) | How to contribute to the project | - |
-| 15 | [📄 License](#license) | MIT License information | - |
-| 16 | [🎉 Acknowledgments](#acknowledgments) | Credits and thanks | - |
-| 17 | [⚠️ Disclaimer](#disclaimer) | Important warnings and legal notices | - |
+| 1 | [🌟 Overview](#overview) | Project overview and introduction |
+| 2 | [🎯 What Makes It Special](#what-makes-it-special) | Key differentiators and benefits |
+| 3 | [🏢 Enterprise Features](#enterprise-features) | Multi-user, database, analytics, compliance |
+| 4 | [📊 Performance & Scaling](#performance--scaling) | Monitoring, optimization, caching, load balancing |
+| 5 | [✨ Features](#features) | Core wallet generation and API capabilities |
+| 6 | [📦 Installation & Prerequisites](#installation) | Setup requirements and installation steps |
+| 7 | [⚙️ Configuration](#configuration) | Environment variables and config files |
+| 8 | [🚀 Deployment](#deployment) | Production, Docker, and systemd deployment |
+| 9 | [📖 Usage](#usage) | CLI commands and API examples |
+| 10 | [🏗️ Project Structure](#project-structure) | Directory organization and architecture |
+| 11 | [🔧 Development](#development) | Development setup and testing |
+| 12 | [🔒 Security Considerations](#security) | Security features and best practices |
+| 13 | [🆘 Support](#support) | Getting help and troubleshooting |
+| 14 | [🤝 Contributing](#contributing) | How to contribute to the project |
+| 15 | [📄 License](#license) | MIT License information |
+| 16 | [🎉 Acknowledgments](#acknowledgments) | Credits and thanks |
+| 17 | [⚠️ Disclaimer](#disclaimer) | Important warnings and legal notices |
 
 </div>
 
