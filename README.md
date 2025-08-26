@@ -1,9 +1,6 @@
-
-# MetaWalletGen CLI
-
 <div align="center">
 
-[![MetaGen Wallet Banner](Banner%20V1%20METAGEN%20WALLET.png)](Banner%20V1%20METAGEN%20WALLET.png)
+[![MetaGen Wallet Banner](public/img/Banner%20V1%20METAGEN%20WALLET.png)](public/img/Banner%20V1%20METAGEN%20WALLET.png)
 
 </div>
 
