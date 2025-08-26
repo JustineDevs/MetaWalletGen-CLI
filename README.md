@@ -5,12 +5,16 @@
 
 **MetaWalletGen CLI** is a **production-ready, enterprise-grade platform** for generating and managing Ethereum-compatible wallets. What started as a simple CLI tool has been transformed into a comprehensive solution that can handle enterprise-scale operations with advanced security, monitoring, and scalability features.
 
+</div>
+
 ### **🎯 What Makes It Special**
- **🔒 Enterprise Security**: Multi-user authentication, role-based access control, audit logging
- **📊 Performance Monitoring**: Real-time metrics, automated optimization, load balancing
- **🌐 API-First Design**: RESTful API with web dashboard and programmatic access
- **🚀 Production Ready**: Comprehensive deployment automation and operational procedures
- **📈 Scalable Architecture**: Designed for high-volume operations and enterprise integration
+- **🔒 Enterprise Security**: Multi-user authentication, role-based access control, audit logging
+- **📊 Performance Monitoring**: Real-time metrics, automated optimization, load balancing
+- **🌐 API-First Design**: RESTful API with web dashboard and programmatic access
+- **🚀 Production Ready**: Comprehensive deployment automation and operational procedures
+- **📈 Scalable Architecture**: Designed for high-volume operations and enterprise integration
+
+<div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/JustineDevs/MetaWalletGen-CLI?style=social&label=Stars)](https://github.com/JustineDevs/MetaWalletGen-CLI/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/JustineDevs/MetaWalletGen-CLI?style=social&label=Forks)](https://github.com/JustineDevs/MetaWalletGen-CLI/network/members)
