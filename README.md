@@ -1,4 +1,16 @@
-# 🚀 **MetaWalletGen CLI - Production Ready Enterprise Platform**
+<div align="center">
+
+# **MetaWalletGen CLI - Production Ready Enterprise Platform**.
+## 🌟 **Overview**
+
+**MetaWalletGen CLI** is a **production-ready, enterprise-grade platform** for generating and managing Ethereum-compatible wallets. What started as a simple CLI tool has been transformed into a comprehensive solution that can handle enterprise-scale operations with advanced security, monitoring, and scalability features.
+
+### **🎯 What Makes It Special**
+- **🔒 Enterprise Security**: Multi-user authentication, role-based access control, audit logging
+- **📊 Performance Monitoring**: Real-time metrics, automated optimization, load balancing
+- **🌐 API-First Design**: RESTful API with web dashboard and programmatic access
+- **🚀 Production Ready**: Comprehensive deployment automation and operational procedures
+- **📈 Scalable Architecture**: Designed for high-volume operations and enterprise integration
 
 [![GitHub stars](https://img.shields.io/github/stars/JustineDevs/MetaWalletGen-CLI?style=social&label=Stars)](https://github.com/JustineDevs/MetaWalletGen-CLI/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/JustineDevs/MetaWalletGen-CLI?style=social&label=Forks)](https://github.com/JustineDevs/MetaWalletGen-CLI/network/members)
@@ -20,6 +32,8 @@ If you find this project helpful, please consider supporting its development:
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Us-yellow?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/JustineDevs)
 [![Liberapay](https://img.shields.io/badge/Liberapay-Support%20Us-green?style=for-the-badge&logo=liberapay)](https://liberapay.com/JustineDevs)
 
+
+
 **Supported Funding Platforms:**
 - **GitHub Sponsors**: [JustineDevs](https://github.com/sponsors/JustineDevs)
 - **Patreon**: [JustineDevs](https://patreon.com/JustineDevs)
@@ -36,38 +50,31 @@ If you find this project helpful, please consider supporting its development:
 - **Custom**: [Direct Support](mailto:TraderGOfficial@gmail.com)
 
 ## 📋 **Table of Contents**
-1. [🌟 Overview](#overview)
-2. [🎯 What Makes It Special](#what-makes-it-special)
-3. [🏢 Enterprise Features](#enterprise-features)
-4. [📊 Performance & Scaling](#performance--scaling)
-5. [✨ Features](#features)
-6. [📦 Installation & Prerequisites](#installation)
-7. [⚙️ Configuration](#configuration)
-8. [🚀 Deployment](#deployment)
-9. [📖 Usage](#usage)
-10. [🏗️ Project Structure](#project-structure)
-11. [🔧 Development](#development)
-12. [🔒 Security Considerations](#security)
-13. [🆘 Support](#support)
-14. [🤝 Contributing](#contributing)
-15. [📄 License](#license)
-16. [🎉 Acknowledgments](#acknowledgments)
-17. [⚠️ Disclaimer](#disclaimer)
+
+| # | Section | Description | Page |
+|---|---------|-------------|------|
+| 1 | [🌟 Overview](#overview) | Project overview and introduction | - |
+| 2 | [🎯 What Makes It Special](#what-makes-it-special) | Key differentiators and benefits | - |
+| 3 | [🏢 Enterprise Features](#enterprise-features) | Multi-user, database, analytics, compliance | - |
+| 4 | [📊 Performance & Scaling](#performance--scaling) | Monitoring, optimization, caching, load balancing | - |
+| 5 | [✨ Features](#features) | Core wallet generation and API capabilities | - |
+| 6 | [📦 Installation & Prerequisites](#installation) | Setup requirements and installation steps | - |
+| 7 | [⚙️ Configuration](#configuration) | Environment variables and config files | - |
+| 8 | [🚀 Deployment](#deployment) | Production, Docker, and systemd deployment | - |
+| 9 | [📖 Usage](#usage) | CLI commands and API examples | - |
+| 10 | [🏗️ Project Structure](#project-structure) | Directory organization and architecture | - |
+| 11 | [🔧 Development](#development) | Development setup and testing | - |
+| 12 | [🔒 Security Considerations](#security) | Security features and best practices | - |
+| 13 | [🆘 Support](#support) | Getting help and troubleshooting | - |
+| 14 | [🤝 Contributing](#contributing) | How to contribute to the project | - |
+| 15 | [📄 License](#license) | MIT License information | - |
+| 16 | [🎉 Acknowledgments](#acknowledgments) | Credits and thanks | - |
+| 17 | [⚠️ Disclaimer](#disclaimer) | Important warnings and legal notices | - |
+
+</div>
 
 ---
 
-## 🌟 **Overview**
-
-**MetaWalletGen CLI** is a **production-ready, enterprise-grade platform** for generating and managing Ethereum-compatible wallets. What started as a simple CLI tool has been transformed into a comprehensive solution that can handle enterprise-scale operations with advanced security, monitoring, and scalability features.
-
-### **🎯 What Makes It Special**
-- **🔒 Enterprise Security**: Multi-user authentication, role-based access control, audit logging
-- **📊 Performance Monitoring**: Real-time metrics, automated optimization, load balancing
-- **🌐 API-First Design**: RESTful API with web dashboard and programmatic access
-- **🚀 Production Ready**: Comprehensive deployment automation and operational procedures
-- **📈 Scalable Architecture**: Designed for high-volume operations and enterprise integration
-
----
 
 ## 🏢 **Enterprise Features**
 
